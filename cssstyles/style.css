@@ -1,0 +1,183 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Padauk&display=swap');
+
+*,
+*::after,
+*::before{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: #000;
+}
+
+body {
+    font-size: 1.6em;
+    color: #fff; 
+}
+
+.logo {
+    width: 350px;
+}
+
+nav {
+    display: inline-block;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15rem;   
+}
+
+.barra__navegacion {
+    background-color: rgb(0, 0, 0);
+    margin: 0%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50vw;
+    font-size: 1.8rem;
+}
+
+.menu__item {
+    list-style-type: none;
+
+}
+.menu__link {
+    text-decoration:none;
+    color: #fff;  
+
+}
+
+main {
+    display: flex;
+    flex-direction: column
+    
+}
+
+p {
+    font-size: 2.0rem;
+    color: #fff;
+}
+
+h1 {
+    font-size: 3.5rem;
+    color: #fff;
+}
+
+section {
+
+    display: flex ;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.seccion__bio {
+    display: flex ;
+    flex-direction:column;
+    align-items: center;
+    margin-top: 3rem;
+    margin-right: 10rem;
+}
+
+.articulo {
+    display: flex;
+    flex-direction: column;
+}
+
+.div__imgyp {
+    display: flex;
+    align-items: center;
+}
+
+.articulo__img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50px;
+    margin-right: 3rem;
+}
+
+.articulo__img1 {
+    width: 400px;
+    height: 300px;
+    border-radius: 50px;
+    margin-right: 3rem;
+}
+
+.articulo__img1__bio {
+    width: 400px;
+    height: 270px;
+    border-radius: 50px;
+    margin-right: 3rem;
+}
+
+.aritculo__parrafo {
+    display: flex;
+    width: 500px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    line-height:20 px;
+}  
+
+.aritculo__parrafo__biografia {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    line-height:20 px;
+}
+
+.seccion__galeria {
+    display: grids ;
+    grid-template-columns: repeat(8, 1fr) ;
+}
+
+.galeria__item {
+    border: solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.form__borde {
+    border: outset white;
+    padding: 1.5rem;
+
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.footer__parrafo1 {
+    margin-top: 8rem; 
+}
+
+.footer__parrafo2 {
+    margin-top: 3rem; 
+}
+
+.footer__parrafo3 {
+    margin-top: 4rem; 
+}
